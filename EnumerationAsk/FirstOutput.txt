@@ -1,0 +1,100 @@
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash testpc.sh 
+[Python]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.017277956008911133
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.008080720901489258
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash testpc.sh 
+[Python]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.012676239013671875
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.008166790008544922
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash testpc.sh 
+[Python]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.012729644775390625
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.008089303970336914
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash testpc.sh 
+[Python]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.012453556060791016
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.008238792419433594
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash testpc.sh 
+[Python]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.015677690505981445
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.008147001266479492
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash testpc.sh 
+[Python]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.013039827346801758
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.00864100456237793
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash test.sh 
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash test.sh 
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash testpc.sh 
+[Python]
+Inference, EnumerationAsk, 0.13131022453308105, 0.03491401672363281
+Inference, EnumerationAsk, 0.1277930736541748, 0.0323185920715332
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash testpc.sh 
+[Python]
+Inference, EnumerationAsk, 0.1296381950378418, 0.035953521728515625
+Inference, EnumerationAsk, 0.12419915199279785, 0.0344545841217041
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash testpc.sh 
+[Python]
+Inference, EnumerationAsk, 0.1319286823272705, 0.03515434265136719
+Inference, EnumerationAsk, 0.12489914894104004, 0.0332493782043457
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash testpc.sh 
+[Python]
+Inference, EnumerationAsk, 0.12742137908935547, 0.038115739822387695
+[Cython]
+Inference, EnumerationAsk, 0.13088750839233398, 0.03338432312011719
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash testpc.sh 
+[Python]
+Inference, EnumerationAsk, 0.1305537223815918, 0.03495979309082031
+[Cython]
+Inference, EnumerationAsk, 0.12929415702819824, 0.033168792724609375
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash testpc.sh 
+[Python]
+Inference, EnumerationAsk, 0.12709879875183105, 0.03563857078552246
+[Cython]
+Inference, EnumerationAsk, 0.13085222244262695, 0.035265207290649414
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash testpc.sh 
+[Python]
+Inference, EnumerationAsk, 0.12962937355041504, 0.03741788864135742
+[Cython]
+Inference, EnumerationAsk, 0.13154268264770508, 0.03214883804321289
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash testpc.sh 
+[Python]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.012566566467285156
+[Cython]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.011322498321533203
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash testpc.sh 
+[Python]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.012329578399658203
+[Cython]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.012031793594360352
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash testpc.sh 
+[Python]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.012400627136230469
+[Cython]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.012429237365722656
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash testpc.sh 
+[Python]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.01292276382446289
+[Cython]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.010546684265136719
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash testpc.sh 
+[Python]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.012512683868408203
+[Cython]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.011711359024047852
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash testpc.sh 
+[Python]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.01220846176147461
+[Cython]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.01081991195678711
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash testpc.sh 
+[Python]
+Inference, EnumerationAsk, 4.76837158203125e-07, 0.013608217239379883
+[Cython]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.012299537658691406
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ bash testpc.sh 
+[Python]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.012728214263916016
+[Cython]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.012320756912231445
+kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/EnumerationAsk $ 
+

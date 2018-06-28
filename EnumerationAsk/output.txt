@@ -1,0 +1,85 @@
+Python, followed by Cython: 
+[Python]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.009423017501831055
+[Cython]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.008125543594360352
+[Python]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.010862112045288086
+[Cython]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.007663249969482422
+[Python]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.009454488754272461
+[Cython]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.008234977722167969
+[Python]
+Inference, EnumerationAsk, 0.0, 0.008991479873657227
+[Cython]
+Inference, EnumerationAsk, 0.0, 0.008219480514526367
+[Python]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.009536981582641602
+[Cython]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.008246183395385742
+[Python]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.009171009063720703
+[Cython]
+Inference, EnumerationAsk, 4.76837158203125e-07, 0.007695198059082031
+[Python]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.013092517852783203
+[Cython]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.012603521347045898
+[Python]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.009581327438354492
+[Cython]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.008952140808105469
+[Python]
+Inference, EnumerationAsk, 0.0, 0.00954127311706543
+[Cython]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.008083105087280273
+[Python]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.009595394134521484
+[Cython]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.008358955383300781
+
+
+
+Cython, followed by Python: 
+[Cython]
+Inference, EnumerationAsk, 4.76837158203125e-07, 0.013746023178100586
+[Python]
+Inference, EnumerationAsk, 4.76837158203125e-07, 0.02926778793334961
+[Cython]
+Inference, EnumerationAsk, 7.152557373046875e-07, 0.02063298225402832
+[Python]
+Inference, EnumerationAsk, 4.76837158203125e-07, 0.028680801391601562
+[Cython]
+Inference, EnumerationAsk, 4.76837158203125e-07, 0.02720475196838379
+[Python]
+Inference, EnumerationAsk, 4.76837158203125e-07, 0.02783513069152832
+[Cython]
+Inference, EnumerationAsk, 4.76837158203125e-07, 0.02056431770324707
+[Python]
+Inference, EnumerationAsk, 4.76837158203125e-07, 0.027900218963623047
+[Cython]
+Inference, EnumerationAsk, 7.152557373046875e-07, 0.0206148624420166
+[Python]
+Inference, EnumerationAsk, 4.76837158203125e-07, 0.019537687301635742
+[Cython]
+Inference, EnumerationAsk, 2.384185791015625e-07, 0.012572526931762695
+[Python]
+Inference, EnumerationAsk, 4.76837158203125e-07, 0.01797938346862793
+[Cython]
+Inference, EnumerationAsk, 4.76837158203125e-07, 0.023375272750854492
+[Python]
+Inference, EnumerationAsk, 7.152557373046875e-07, 0.022825956344604492
+[Cython]
+Inference, EnumerationAsk, 4.76837158203125e-07, 0.014541149139404297
+[Python]
+Inference, EnumerationAsk, 4.76837158203125e-07, 0.015918254852294922
+[Cython]
+Inference, EnumerationAsk, 4.76837158203125e-07, 0.012267589569091797
+[Python]
+Inference, EnumerationAsk, 4.76837158203125e-07, 0.01983928680419922
+[Cython]
+Inference, EnumerationAsk, 4.76837158203125e-07, 0.01878666877746582
+[Python]
+Inference, EnumerationAsk, 4.76837158203125e-07, 0.026881694793701172

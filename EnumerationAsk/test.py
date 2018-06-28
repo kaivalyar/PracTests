@@ -15,7 +15,10 @@ def main(arg='.'):
         
     start = time.time()
         #t = 1000* timeit.timeit("test(False)", setup="from __main__ import test, set; set()", number=10)
-    query(queries='Cancer,Smokes,Friends', method='EnumerationAsk', mln=mln, db=db, verbose=False, multicore=True).run()
+    
+    #MULTICORE:#
+    #query(queries='Cancer,Smokes,Friends', method='EnumerationAsk', mln=mln, db=db, verbose=False, multicore=True).run()
+    
     t1 = time.time()-start
     #print('single core exact inference test: {}'.format(t))
         #fl.write(str(t))
