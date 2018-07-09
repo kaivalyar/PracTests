@@ -13,15 +13,19 @@ import time
 from pracmln.utils import locs
 
 
-def test_inference_smokers():
-    p = os.path.join(locs.examples, 'smokers', 'smokers.pracmln')
-    mln = MLN(mlnfile=('%s:wts.pybpll.smoking-train-smoking.mln' % p),
-              grammar='StandardGrammar')
-    db = Database(mln, dbfile='%s:smoking-test-smaller.db' % p)
+def test_inference_smokers(arg='..'):
+    #p = os.path.join(locs.examples, 'smokers', 'smokers.pracmln')
+    #mln = MLN(mlnfile=('%s:wts.pybpll.smoking-train-smoking.mln' % p),
+    #          grammar='StandardGrammar')
+    #db = Database(mln, dbfile='%s:smoking-test-smaller.db' % p)
+    pth = os.path.join(arg, 'wts.pybpll.smoking-train-smoking.mln')
+    mln = MLN(mlnfile=pth, grammar='StandardGrammar')
+    pth = os.path.join(arg, 'smoking-test-smaller.db')
+    db = Database(mln, dbfile=pth)
     for method in ('EnumerationAsk',
-                   #'MC-SAT',
-                   #'WCSPInference',
-                   #'GibbsSampler'
+                   'MC-SAT',
+                   'WCSPInference',
+                   'GibbsSampler'
                    ):
         for multicore in (False, True):
             print('=== INFERENCE TEST:', method, '===')
@@ -49,11 +53,15 @@ def test_inference_taxonomies():
               cw=True).run().write()
     
     
-def test_learning_smokers():
-    p = os.path.join(locs.examples, 'smokers', 'smokers.pracmln')
-    mln = MLN(mlnfile=('%s:smoking.mln' % p), grammar='StandardGrammar')
-    mln.write()
-    db = Database(mln, dbfile='%s:smoking-train.db' % p)
+def test_learning_smokers(arg='..'):
+    #p = os.path.join(locs.examples, 'smokers', 'smokers.pracmln')
+    #mln = MLN(mlnfile=('%s:smoking.mln' % p), grammar='StandardGrammar')
+    #mln.write()
+    #db = Database(mln, dbfile='%s:smoking-train.db' % p)
+    pth = os.path.join(arg, 'smoking.mln')
+    mln = MLN(mlnfile=pth, grammar='StandardGrammar')
+    pth = os.path.join(arg, 'smoking-train.db')
+    db = Database(mln, dbfile=pth)
     for method in ('BPLL', 'BPLL_CG', 'CLL'):
         for multicore in (True, False):
             print('=== LEARNING TEST:', method, '===')
@@ -88,17 +96,17 @@ def runall():
     test_inference_smokers()
     print("Finish Smoker Inference")
 
-    print("Start Taxonomy Inference")
-    test_inference_taxonomies()
-    print("Finish Taxonomy Inference")
+    #print("Start Taxonomy Inference")
+    #test_inference_taxonomies()
+    #print("Finish Taxonomy Inference")
 
     print("Start Smoker Learning")
     test_learning_smokers()
     print("Finish Smoker Learning")
 
-    print("Start Taxonomy Learning")
-    test_learning_taxonomies()
-    print("Finish Taxonomy Learning")
+    #print("Start Taxonomy Learning")
+    #test_learning_taxonomies()
+    #print("Finish Taxonomy Learning")
 
     print()
     print('all test finished after', time.time() - start, 'secs')
