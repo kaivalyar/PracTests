@@ -1,0 +1,174 @@
+(p3) kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/GenericSystemTest $ pycallgraph graphviz -- python3 test.py 
+Traceback (most recent call last):
+  File "/home/kaivalya/p3/bin/pycallgraph", line 23, in <module>
+    __file_content = open(__config.command).read()
+FileNotFoundError: [Errno 2] No such file or directory: 'python3'
+(p3) kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/GenericSystemTest $ pycallgraph graphviz -- ./test.py 
+[Python]
+PracMLN Generic Systems Test:
+
+Start Smoker Inference
+=== INFERENCE TEST: EnumerationAsk ===
+=== INFERENCE TEST: EnumerationAsk ===
+=== INFERENCE TEST: MC-SAT ===
+
+=== INFERENCE TEST: MC-SAT ===
+
+=== INFERENCE TEST: WCSPInference ===
+=== INFERENCE TEST: WCSPInference ===
+=== INFERENCE TEST: GibbsSampler ===
+=== INFERENCE TEST: GibbsSampler ===
+Finish Smoker Inference
+Start Taxonomy Inference
+=== INFERENCE TEST: EnumerationAsk ===
+action_role(w1,_):
+[■■■■■■■■■■■■■■■■■] 100.000 % action_role(w1,theme)
+[                 ]   0.000 % action_role(w1,goal)
+action_role(w2,_):
+[■■■■■■■■■■■■■■■■■] 100.000 % action_role(w2,goal)
+[                 ]   0.000 % action_role(w2,theme)
+has_sense(w1,_):
+[■■■■■■■■■■■■■■■■■] 100.000 % has_sense(w1,s2)
+[                 ]   0.000 % has_sense(w1,s3)
+[                 ]   0.000 % has_sense(w1,s1)
+[                 ]   0.000 % has_sense(w1,s5)
+[                 ]   0.000 % has_sense(w1,s4)
+has_sense(w2,_):
+[■■■■■■■■■■       ]  57.538 % has_sense(w2,s4)
+[■■■■■■■          ]  42.462 % has_sense(w2,s5)
+[                 ]   0.000 % has_sense(w2,s3)
+[                 ]   0.000 % has_sense(w2,s1)
+[                 ]   0.000 % has_sense(w2,s2)
+Finish Taxonomy Inference
+Start Smoker Learning
+
+
+
+// predicate declarations
+Cancer(person)
+Friends(person,person)
+Smokes(person)
+
+// formulas
+0.000000    Smokes(x) => Cancer(x)
+0.000000    Friends(x,y) => (Smokes(x) <=> Smokes(y))
+=== LEARNING TEST: BPLL ===
+Optimization terminated successfully.
+         Current function value: 44.345521
+         Iterations: 8
+         Function evaluations: 9
+         Gradient evaluations: 9
+
+=== LEARNING TEST: BPLL ===
+Optimization terminated successfully.
+         Current function value: 44.345521
+         Iterations: 8
+         Function evaluations: 9
+         Gradient evaluations: 9
+
+=== LEARNING TEST: BPLL_CG ===
+Optimization terminated successfully.
+         Current function value: 44.345521
+         Iterations: 8
+         Function evaluations: 9
+         Gradient evaluations: 9
+
+=== LEARNING TEST: BPLL_CG ===
+Optimization terminated successfully.
+         Current function value: 44.345521
+         Iterations: 8
+         Function evaluations: 9
+         Gradient evaluations: 9
+
+=== LEARNING TEST: CLL ===
+Optimization terminated successfully.
+         Current function value: 44.345521
+         Iterations: 8
+         Function evaluations: 9
+         Gradient evaluations: 9
+
+=== LEARNING TEST: CLL ===
+Optimization terminated successfully.
+         Current function value: 44.345521
+         Iterations: 8
+         Function evaluations: 9
+         Gradient evaluations: 9
+
+Finish Smoker Learning
+Start Taxonomy Learning
+2018-07-09 07:05:08 - WARNING  - Fuzzy declarations are not supported in FirstOrderLogic. Treated as a binary predicate.
+// domain declarations
+role = {theme, goal}
+
+
+
+// predicate declarations
+action_role(word,role!)
+has_sense(word,sense!)
+#fuzzy
+is_a(sense,concept)
+
+// formulas
+#unique{+?r1,+?r2}
+0.000000    action_role(?w1,+?r1) ^ action_role(?w2,+?r2) ^ is_a(?s1,+?c1) ^ is_a(?s2,+?c2) ^ has_sense(?w1,?s1) ^ has_sense(?w2,?s2) ^ (?w1=/=?w2)
+=== LEARNING TEST: DPLL ===
+Optimization terminated successfully.
+         Current function value: 0.000035
+         Iterations: 18
+         Function evaluations: 19
+         Gradient evaluations: 19
+
+=== LEARNING TEST: DPLL ===
+Optimization terminated successfully.
+         Current function value: 0.000035
+         Iterations: 18
+         Function evaluations: 19
+         Gradient evaluations: 19
+
+=== LEARNING TEST: DBPLL_CG ===
+Optimization terminated successfully.
+         Current function value: 0.000035
+         Iterations: 18
+         Function evaluations: 19
+         Gradient evaluations: 19
+
+=== LEARNING TEST: DBPLL_CG ===
+Optimization terminated successfully.
+         Current function value: 0.000035
+         Iterations: 18
+         Function evaluations: 19
+         Gradient evaluations: 19
+
+=== LEARNING TEST: DCLL ===
+Optimization terminated successfully.
+         Current function value: 0.000035
+         Iterations: 18
+         Function evaluations: 19
+         Gradient evaluations: 19
+
+=== LEARNING TEST: DCLL ===
+Optimization terminated successfully.
+         Current function value: 0.000035
+         Iterations: 18
+         Function evaluations: 19
+         Gradient evaluations: 19
+
+Finish Taxonomy Learning
+
+all test finished after 202.5408706665039 secs
+dot: graph is too large for cairo-renderer bitmaps. Scaling by 0.515504 to fit
+(p3) kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/GenericSystemTest $ history | tail 10
+tail: cannot open '10' for reading: No such file or directory
+(p3) kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/GenericSystemTest $ history | tail 
+ 1714  PYTHONPATH=""
+ 1715  echo $PYTHONPATH
+ 1716  pycallgraph graphviz -- python3 test.py 
+ 1717  pip3 install pycallgraph
+ 1718  pycallgraph graphviz -- python3 test.py 
+ 1719  python3 test.py 
+ 1720  pycallgraph graphviz -- python3 test.py 
+ 1721  pycallgraph graphviz -- ./test.py 
+ 1722  history | tail 10
+ 1723  history | tail 
+(p3) kaivalya@kaivalyarawal ~/Documents/WORK/GSoC/PracTests/GenericSystemTest $ 
+
