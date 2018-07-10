@@ -2,3 +2,7 @@
 exact inference test: 0.016280651092529297
 [Cython]
 exact inference test: 0.6328520774841309
+[Cython]
+exact inference test: 376.703243970871
+[Cython]
+exact inference test: 184.25852823257446
