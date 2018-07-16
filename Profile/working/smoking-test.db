@@ -1,0 +1,5 @@
+Cancer(Ann)
+!Cancer(Bob)
+!Friends(Ann,Bob)
+Smokes(Ivan)
+Friends(Ivan, John)
